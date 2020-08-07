@@ -63,7 +63,9 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
+a:hover {
+    text-decoration: underline; 
+}
 p {
     line-height: 1.4;
 }
@@ -261,4 +263,7 @@ header nav a {
     text-decoration: none;
     color: black;
     
+}
+.article a:hover {
+    text-decoration: underline; 
 }
